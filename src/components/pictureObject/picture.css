@@ -1,0 +1,22 @@
+* {
+    background-color: rgb(238, 238, 246);
+    font-family: Verdana;
+    color: rgb(33, 4, 78);
+}
+#image {
+    width: 300px;
+    height: 200px;
+
+}
+
+.productObject {
+    width: calc(20% - 2rem);
+    margin: 0.5rem;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .productObject img {
+    max-width: 100%;
+    height: auto;
+  }

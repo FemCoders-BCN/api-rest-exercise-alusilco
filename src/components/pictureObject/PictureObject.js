@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './picture.css';
 
-function PictureObject() {
+function PictureObject({ image }) {
   return (
-    <div>En este componente desarrollarás la lógica y la estructura de los objetos</div>
-  )
+    <div className='productObject'>
+      <img id='image' src={image.download_url} alt="Imagen" />
+      <h3>Autor: {image.author}</h3>
+      <p>ID de la imagen: {image.id}</p>
+    </div>
+  );
 }
 
-export default PictureObject
+export default PictureObject;

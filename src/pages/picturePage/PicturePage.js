@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 
 function PicturePage() {
+  
   return (
     <main>
         <h2>Aquí estará la imagen de la segunda llamada</h2>
@@ -15,7 +16,7 @@ function PicturePage() {
             <li>Has de borrar estas instrucciones cuando lo tengas.</li>
             <li>Los estilos los has de realizar tú misma.</li>
         </ul>
-    </main> 
+    </main>
   )
 }
 
